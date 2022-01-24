@@ -1,0 +1,142 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#navbar {
+    background-image: linear-gradient(90deg,rgb(16, 76, 216),rgb(255, 255, 255),rgb(173, 239, 255),rgb(255, 255, 255),rgb(16, 76, 216));
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar ul li {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 15px;
+}
+
+#navbar ul li:hover {
+    background-color: white;
+    border-radius: 10px;
+
+}
+#navbar ul li a:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
+
+#heroSection {
+    background: url('https://emottawablog.com/wp-content/uploads/2021/04/ICPFigure15-1080x675.jpg') no-repeat center center/cover;
+    height: 80vh;
+}
+
+#qualitySection{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 80%;
+    margin: auto;
+}
+
+.quality {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quality1{
+    background-color: whitesmoke;
+    border-radius: 22px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#icon img{
+    height: 130%;
+    width: 70%;
+}
+#icon2 img{
+    height: 100%;
+    width: 60%;
+}
+#icon3 img{
+    height: 100%;
+    width: 60%;
+}
+#quality2{
+    margin: 2%;
+    border: 1px black solid;
+    border-radius: 22px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#quality3{
+    background-color: whitesmoke;
+    border-radius: 22px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.quality div{
+    /* border: 2px black solid; */
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+ .iconImg{
+    /* border: 2px rgb(45, 233, 86) solid; */
+    border-radius: 10px;
+    margin: 20px;
+    
+}
+footer{
+    background-color: rgb(35, 35, 51);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+#socialMedia ul{
+    list-style: none;
+    display: flex;
+}
+
+#quickLinks ul li a{
+    text-decoration: none;
+    color: rgb(44, 117, 233);
+
+}
+#socialMedia ul li{
+    margin-right: 10px;
+
+}
+
+
+/* #quality1 */
