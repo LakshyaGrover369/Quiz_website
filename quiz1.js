@@ -1,4 +1,4 @@
-function scoreChecker(){
+function scoreChecker(tn){
 
 
 
@@ -57,9 +57,26 @@ let result=document.getElementById('result');
 result.style.display='flex';
 
 let testName;
+
+if(tn===1){
+  testName=`HTML Test`
+}
+if(tn===2){
+  testName=`CSS Test`
+}
+if(tn===3){
+  testName=`JavaScript Test`
+}
+if(tn===4){
+  testName=`React Test`
+}
+if(tn===5){
+  testName=`Vue Test`
+}
+
 let testMarks;  
 let testDetailsObj={
-  testName:`HTML Test`,
+  testName:testName,
   testMarks:sum,
   testStar: JSON.stringify(document.getElementById('stars').innerHTML)
 };
